@@ -1,0 +1,229 @@
+
+/*
+
+1. El orden de definición es alfabético:
+   - Etiquetas HTML
+   - Identificadores
+   - Clases
+
+2. Los atributos también se ordenan alfabéticamente.
+3. En el body siempre se define un tamaño de fuente.
+
+PALETA DE COLORES:
+Azul petróleo oscuro: #183F4A
+Azul petróleo: #244C5A
+Verde turquesa: #55AFA3
+Durazno: #F3A477
+Marfil: #F7F3EA
+Verde suave: #DCECE7
+Gris oscuro: #343A40
+
+*/
+
+/* FUENTES */
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Montserrat.ttf) format("truetype");
+}
+
+/* ESTILOS GENERALES */
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* ETIQUETAS HTML */
+
+body {
+    background-color: #183F4A;
+    background-size: cover;
+    font-family: "Montserrat", Helvetica, Verdana;
+    font-size: 12px;
+}
+
+footer {
+    background: rgba(36, 76, 90, 0.9);
+    color: white;
+    font-size: 12px;
+    height: 50px;
+    padding-top: 10px;
+    shape-margin: 15px;
+    text-align: center;
+    width: 1000px;
+}
+
+footer a {
+    float: left;
+    text-decoration: none;
+}
+
+header {
+    height: 145px;
+    width: 1000px;
+}
+
+header h1 {
+    color: #F7F3EA;
+    font-size: 30px;
+    margin: 60px 0 0 40px;
+    position: absolute;
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 1px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #F3A477;
+    text-shadow: 2px 2px 6px #244C5A;
+}
+
+/* IDENTIFICADORES */
+
+#banner {
+    background: #244C5A;
+    height: 240px;
+    padding: 40px;
+    width: 920px;
+}
+
+#banner #promo1 h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+#contenedor {
+    height: auto;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#icono1, #icono2, #icono3 {
+    background: #55AFA3;
+    border-radius: 70px;
+    box-shadow: 7px 2px 10px #343A40;
+    height: 140px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+}
+
+#icono1 {
+    background: url(../img/emprender.png) center;
+}
+
+#icono2 {
+    background: url(../img/sena_aprendiz_1.jpg) center;
+}
+
+#icono3 {
+    background: url(../img/emprender2.jpg) center;
+}
+
+#promo1 a {
+    background: #55AFA3;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    height: 40px;
+    margin-top: 160px;
+    padding-top: 15px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+}
+
+#promo1 a:hover {
+    background: #F3A477;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    height: 40px;
+    margin-top: 160px;
+    padding-top: 15px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+}
+
+#promo1 a:active {
+    background: #244C5A;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    margin-top: 160px;
+    padding-top: 15px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+}
+
+#promo1 img {
+    float: right;
+    height: 250px;
+    margin-right: 15px;
+    position: relative;
+    width: 400px;
+}
+
+#servicios {
+    background: #DCECE7;
+    height: 350px;
+    margin: 20px 0;
+    width: 1000px;
+}
+
+#servicio1, #servicio2, #servicio3 {
+    display: inline-block;
+    height: 285px;
+    padding: 20px;
+    text-align: justify;
+    vertical-align: top;
+    width: 290px;
+}
+
+/* CLASES */
+
+.logo {
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+    margin-left: 480px;
+    margin-top: 10px;
+}
+
+.fa-twitter {
+    color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+}
